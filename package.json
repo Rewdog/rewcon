@@ -3,6 +3,9 @@
   "name": "rewcon",
   "version": "1.0.0",
   "description": "Rewcon static website",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "echo 'No build step required'"
   }

@@ -1,7 +1,0 @@
-# Simple configuration for static site hosting
-name = "rewcon"
-compatibility_date = "2025-04-25"
-
-# This tells Cloudflare Pages where to find your static assets
-[site]
-bucket = "./"

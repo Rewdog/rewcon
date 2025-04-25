@@ -1,8 +1,7 @@
 name = "rewcon"
 compatibility_date = "2025-04-25"
+main = "workers-site/index.js"
 
 [site]
 # Specify the directory containing your static assets
 bucket = "./"
-
-main = "index.js"

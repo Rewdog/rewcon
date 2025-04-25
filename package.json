@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "rewcon",
+  "version": "1.0.0",
+  "description": "Rewcon static website",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  }
+}

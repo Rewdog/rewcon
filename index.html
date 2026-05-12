@@ -1,9 +1,70 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Rewcon</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REWCON — Cyber Security / IT / AI Consulting</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #07131d;
+      color: #ffffff;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .logo-container {
+      animation: fadeIn 1.4s ease-in both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo-wrap {
+      width: 420px;
+      overflow: hidden;
+      /* 224/280 ratio scaled to 420px = 336px — clips baked-in tagline */
+      height: 336px;
+    }
+
+    .logo-wrap img {
+      width: 420px;
+      display: block;
+    }
+
+    .tagline {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #38bdf8;
+    }
+
+    .domain {
+      margin-top: 0.4rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      color: #94a3b8;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Rewcon</h1>
-    <img src="logo.png" alt="Rewcon Logo">
+  <div class="logo-container">
+    <div class="logo-wrap">
+      <img src="rewconlogo.png" alt="RewCon">
+    </div>
+    <p class="tagline">Cyber Security&nbsp;/&nbsp;IT&nbsp;/&nbsp;AI Consulting</p>
+    <p class="domain">rewcon.co</p>
+  </div>
 </body>
 </html>
